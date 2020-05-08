@@ -10,7 +10,7 @@ typedef struct integer_array
 bool my_is_sort(integer_array * param_1) 
 {
     
-    while (param_1->size <= 1)
+    while (param_1->size >= 1)
         return 1;
         if (param_1->size -1 >= param_1->size - 2)
         return true;
@@ -20,5 +20,3 @@ bool my_is_sort(integer_array * param_1)
 
 
 //[4,7,0,3]---> False
-
-
