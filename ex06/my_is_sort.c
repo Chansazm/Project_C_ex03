@@ -18,5 +18,4 @@ bool my_is_sort(integer_array * param_1)
     return false; 
 }
 
-
 //[4,7,0,3]---> False
